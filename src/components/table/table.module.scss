@@ -50,8 +50,15 @@
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      padding: 0.8rem;
+      padding: 1rem;
       border-bottom: 1px solid #ddd;
+
+      &:last-child {
+        // border-bottom: 1px solid red;
+      }
+    }
+
+    td:last-child {
     }
   }
 

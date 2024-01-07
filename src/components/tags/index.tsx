@@ -23,9 +23,17 @@ const Tags = ({ status }: tagsProp) => {
                 { color: "#EBC315" }
                 : { color: "#E4033B" }
 
+    const borderStyle = status === ItemStatus.Reconcilled ?
+        { background: "#27AE60" }
+        : status === ItemStatus.Unreconcilled
+            ? { background: "#C4C4C4" }
+            : status === ItemStatus.Pending ?
+                { background: "#EBC315" }
+                : { background: "#E4033B" }
+
     return (
         <div style={displayStyle} className={styles.tagsWrapper}>
-            <div className={styles.statusIndicator}></div>
+            <div style={borderStyle} className={styles.statusIndicator}></div>
             <span>{status}</span>
         </div>
     )

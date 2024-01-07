@@ -141,6 +141,7 @@
       align-items: center;
       justify-content: space-between;
       padding-bottom: 0.7rem;
+      gap: 1rem;
       .filterBy {
         display: flex;
         align-items: center;
@@ -240,6 +241,19 @@
           line-height: normal;
           background-color: transparent;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .userContainer {
+    .ChartContainer {
+      display: block;
+    }
+    .tableContainer {
+      .filterWrapper {
+        flex-wrap: wrap;
       }
     }
   }

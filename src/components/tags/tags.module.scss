@@ -1,6 +1,7 @@
 .tagsWrapper {
-  padding: 0.5rem 0.5rem;
-  // padding-left: 1rem;
+  padding: 0.5rem 0.4rem;
+
+  padding-left: 2rem;
   text-align: center;
   border-radius: 100px;
   text-transform: capitalize;
@@ -9,7 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  justify-content: center;
 
   span {
     font-family: Segoe UI;

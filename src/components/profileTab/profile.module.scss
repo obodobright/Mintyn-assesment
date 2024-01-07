@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+  position: relative;
 
   .detailWrapper {
     display: flex;
@@ -51,5 +52,27 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+  .flexContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .profileContainer {
+    .detailWrapper {
+      display: none;
+    }
+    .flexContainer {
+      svg {
+        display: block;
+      }
+    }
   }
 }
