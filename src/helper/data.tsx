@@ -115,86 +115,77 @@ export const AnalyticsData = [
     }
 ]
 
-export const userData = [
+export const itemData = [
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "inactive",
-        phone: "08078903721"
-    },
-    {
-        organization: "Lendsqr",
-        username: "Debby Ogana",
-        email: "debby2@irorun.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "pending",
-        phone: "08078903721"
-    },
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Reconcilled",
 
-    {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "blacklisted",
-        phone: "08078903721"
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "active",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Pending",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "active",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Un-reconcilled",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "blacklisted",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Reconcilled",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "inactive",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Un-reconcilled",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "inactive",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Pending",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "active",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Reconcilled",
+
     },
     {
-        organization: "Lendsqr",
-        username: "Adedeji",
-        email: "adedeji@lendsqr.com",
-        "createdAt": "May 15, 2020 10:00 AM",
-        status: "pending",
-        phone: "08078903721"
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Un-reconcilled",
+
+    },
+    {
+        item: "Apple Mac Book 15” 250 SSD 12GB",
+        price: "$73430",
+        transactionNo: "1234567890",
+        "createdAt": "12:30",
+        status: "Pending",
+
     },
 ] 

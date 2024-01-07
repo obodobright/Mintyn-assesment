@@ -1,7 +1,30 @@
 .tagsWrapper {
-  padding: 0.5rem 0.8rem;
+  padding: 0.5rem 0.5rem;
+  // padding-left: 1rem;
   text-align: center;
-  background-color: #e4033b;
   border-radius: 100px;
   text-transform: capitalize;
+  border: 1px solid #cccfd4;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: center;
+
+  span {
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.8rem;
+  }
+
+  .statusIndicator {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #e4033b;
+    // margin-right: 1.5rem;
+  }
 }
