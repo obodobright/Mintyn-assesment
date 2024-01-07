@@ -1,0 +1,55 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  .detailWrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    span {
+      color: #647787;
+      text-align: center;
+      font-family: Segoe UI;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h3 {
+      color: #647787;
+      text-align: center;
+      font-family: Segoe UI;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .imgContainer {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  .profileName {
+    color: #213f7d;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

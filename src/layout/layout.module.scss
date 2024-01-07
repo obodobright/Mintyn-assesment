@@ -1,0 +1,21 @@
+.layoutContainer {
+  position: relative;
+  background-color: #fbfbfb;
+
+  .layoutFlex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .outsetWrapper {
+      padding: 20px 10px;
+      padding-left: 18vw;
+      padding-right: 3rem;
+      margin-top: 30px;
+
+      min-height: 100vh;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
