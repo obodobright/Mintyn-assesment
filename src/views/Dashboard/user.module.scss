@@ -17,6 +17,11 @@
       border-radius: 2px;
       border: 1px solid #eef8fd;
       background: #fff;
+      position: relative;
+      overflow: hidden;
+      min-height: 50vh;
+      height: 100%;
+      // margin: 0.5rem auto;
 
       .topCharts {
         display: flex;
@@ -67,6 +72,39 @@
               cursor: pointer;
             }
           }
+        }
+      }
+      .chartsWrapper {
+        .chartsMonths {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 35px;
+          gap: 0.5rem;
+
+          p {
+            position: relative;
+            color: #000;
+            font-family: Segoe UI;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 19px;
+
+            &::after {
+              content: "";
+              width: 1px;
+              height: 170px;
+              background-color: #cfe8fb;
+              position: absolute;
+              top: 0;
+              left: 70px;
+            }
+          }
+        }
+        .allCharts {
+          position: absolute;
+          bottom: 0;
         }
       }
     }
@@ -141,6 +179,7 @@
       align-items: center;
       justify-content: space-between;
       padding-bottom: 0.7rem;
+      gap: 1rem;
       .filterBy {
         display: flex;
         align-items: center;
@@ -239,6 +278,45 @@
           font-weight: 400;
           line-height: normal;
           background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .userContainer {
+    .ChartContainer {
+      display: block;
+    }
+    .tableContainer {
+      .filterWrapper {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .userContainer {
+    .ChartContainer {
+      display: block;
+
+      .Charts {
+        .chartsWrapper {
+          .chartsMonths {
+            p {
+              &::after {
+                content: "";
+                width: 1px;
+                height: 170px;
+                background-color: #cfe8fb;
+                position: absolute;
+                top: 0;
+                left: 40px;
+              }
+            }
+          }
         }
       }
     }

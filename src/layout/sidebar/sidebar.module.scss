@@ -31,6 +31,11 @@
       font-weight: 700;
       line-height: normal;
       letter-spacing: 0.2px;
+
+      &:hover {
+        background-color: #22844b;
+        transition: all 350ms;
+      }
     }
   }
 
@@ -61,6 +66,10 @@
       padding-left: 20px;
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
+
+      &:hover {
+        background-color: #e8f1fd;
+      }
       a {
         color: #647787;
         font-family: Segoe UI;
@@ -75,5 +84,11 @@
       border-left: 3px solid #1875f0;
       background-color: #e8f1fd;
     }
+  }
+}
+
+@media (max-width: 1030px) {
+  .sidebarContainer {
+    display: none;
   }
 }

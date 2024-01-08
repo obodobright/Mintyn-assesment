@@ -1,0 +1,133 @@
+.mobileDropdown {
+  width: 150px;
+  max-width: 250px;
+  position: absolute;
+  // left: 33px;
+  right: 10px;
+  top: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 99;
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.04);
+
+  p {
+    width: 100%;
+    padding: 0.8rem 0.9rem;
+    padding-left: 1.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+}
+
+.sidebarWrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background-color: rgba(18, 21, 40, 0.3);
+
+  .sidebarContainer {
+    transition: all 350ms;
+    overflow-y: auto;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 10000;
+    background: #fff;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.04);
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .logoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.7rem;
+      padding: 20px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    .navItemWrapper {
+      padding: 10px 20px;
+      margin-top: 1.5rem;
+      .navItemTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background-color: #27ae60;
+        padding: 0.8rem 1.5rem;
+        border-radius: 100px;
+        color: #fff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.2px;
+
+        &:hover {
+          background-color: #22844b;
+          transition: all 350ms;
+        }
+      }
+    }
+
+    .navItem {
+      list-style-type: none;
+      .navHeader {
+        padding: 1rem 0.2rem;
+        color: #647787;
+        font-family: Segoe UI;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.7rem;
+        padding: 10px 20px;
+      }
+
+      .navLink {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.7rem;
+        padding: 0.7rem 0.2rem;
+        padding: 10px;
+        padding-left: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+        &:hover {
+          background-color: #e8f1fd;
+        }
+        a {
+          color: #647787;
+          font-family: Segoe UI;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration: none;
+        }
+      }
+      .active {
+        border-left: 3px solid #1875f0;
+        background-color: #e8f1fd;
+      }
+    }
+  }
+}

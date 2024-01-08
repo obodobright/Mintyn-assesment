@@ -19,7 +19,18 @@
     align-items: center;
     justify-content: flex-start;
     column-gap: 12rem;
-    // gap: 6rem;
+
+    .logoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.7rem;
+
+      .fabars {
+        display: none;
+      }
+    }
+
     .searchWrapper {
       display: flex;
       align-items: center;
@@ -50,7 +61,7 @@
     gap: 3.5rem;
 
     a {
-      color: var(--Text, #647787);
+      color: #647787;
       font-family: Segoe UI;
       font-size: 14px;
       font-style: normal;
@@ -60,6 +71,39 @@
     }
     svg {
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .navContainer {
+    .leftNavWrapper {
+      .logoWrapper {
+        .fabars {
+          display: block !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .navContainer {
+    .leftNavWrapper {
+      .searchWrapper {
+        display: none;
+      }
+      .logoWrapper {
+        .fabars {
+          display: block !important;
+        }
+      }
+    }
+    .rightNavWrapper {
+      a,
+      svg {
+        display: none;
+      }
     }
   }
 }
