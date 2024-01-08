@@ -71,7 +71,7 @@
     }
     .flexContainer {
       svg {
-        display: block;
+        display: flex !important;
       }
     }
   }

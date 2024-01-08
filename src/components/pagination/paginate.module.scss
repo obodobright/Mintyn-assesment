@@ -1,0 +1,38 @@
+.paginateContainer {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .paginateText {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .paginateBtn {
+    button {
+      padding: 0.5rem 1.2rem;
+      background-color: transparent;
+      border: 1px solid #ced0da;
+      outline: none;
+      color: #000;
+      font-family: Segoe UI;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .active {
+      background-color: #1875f0;
+      color: #ffffff;
+    }
+    .inactive {
+      color: #979797;
+    }
+  }
+}
