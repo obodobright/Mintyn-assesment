@@ -35,3 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deploy on Vercel
 
 deployment link:
+
+### Netlify
+
+https://obodo-bright-mintyn-assessment.netlify.app/
