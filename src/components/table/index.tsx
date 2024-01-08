@@ -55,7 +55,7 @@ const Table = ({ header, itemData }: TableProps) => {
                   <Tags status={el.status} />
                 </div>
               </td>
-              <td> <IoIosArrowDown /></td>
+              <td> <IoIosArrowDown cursor="pointer" /></td>
             </tr>
           ))}
 
